@@ -92,6 +92,8 @@ nav a {
 
 main {
     max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 main section {
@@ -177,11 +179,38 @@ main section {
     margin-bottom: 10px;
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+    gap: 100px;
+}
+.social-links a{
+margin-right: 25px;
+}
+
+.contact input[type="text"], input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.
